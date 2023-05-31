@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Megabayt online store">
+  <link rel="stylesheet" href="style.css">
+  <title>Single Product</title>
+</head>
+<body>
+  <!-- header -->
+  <header class="header">
+    <a href=""></a>
+    <nav class="header__nav nav">
+      <a class="header__links active" href="./index.html">Home</a>
+      <a class="header__links menu" href="./index.html">Menu</a>
+      <a class="header__links about-link" href="./index.html">About</a>
+      <a class="header__links" href="./index.html">Order</a>
+    </nav>
+    <div class="header__icons">
+      <div class="header__icon-container hamburger" href="" class="header__icon"><img class="header__img hamburger" src="./icons/hamburger_icon.png" alt=""></div>
+      <div class="header__icon-container search" href="" class="header__icon"><img class="header__img" src="./icons/search.png" alt=""></div>
+      <div class="header__icon-container" href="" class="header__icon"><img class="header__img heart" src="./icons/like.png" alt=""></div>
+      <div class="header__icon-container" href="" class="header__icon"><img class="header__img cart" src="./icons/shopping-cart.png" alt=""></div>
+      <span class="header__span">0</span>
+    </div>
+  </header>
+  <!-- header section ends -->
+  <form action="" id="" class="search-form">
+    <input type="search" class="search-input" placeholder="Search Here...">
+    <label for="search-input"><img class="input-photo" src="./icons/search.png" alt=""></label>
+    <div class="search-close">
+      <img class="search-close__img" src="./icons/close.png" alt="">
+    </div>
+  </form>
+  <!-- form search ends -->
+  <section class="product">
+    <div class="product__container">
+      <div class="product__image">
+        <img class="product__img" width="100%" src="./img/Megabayt_salty.jpg" alt="">
+
+        <div class="product__littleimgcontainer">
+          <div class="product__littleimage">
+            <img class="product__littleimg" width="100%" src="../img/Megabayt_salty.jpg" alt="">
+          </div>
+          <div class="product__littleimage">
+            <img class="product__littleimg" width="100%" src="./img/Megabayt_back_salty.jpg" alt="">
+          </div>
+          <div class="product__littleimage">
+            <img class="product__littleimg" width="100%" src="./img/seeds_peel.jpg" alt="">
+          </div>
+          <div class="product__littleimage">
+            <img class="product__littleimg" width="100%" src="./img/seeds.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="product__content">
+        <h3 class="product__title">Home / Seeds</h3>
+        <h4 class="product__subtitle">Megabayt salty</h4>
+        <h2 class="product__price">UZS13000</h2>
+        <select class="product__select">
+          <option class="product__option">Select Size</option>
+          <option class="product__option" value="85g">85g</option>
+          <option class="product__option" value="100g">100g</option>
+        </select>
+        <input class="product__input js-number-salty" type="number" value="1">
+        <button data-cart class="product__btn js-btn-salty">Add to Cart</button>
+        <h4 class="product__details">Product Details</h4>
+        <span class="product__text">Our sunflower seeds have the best quality on the market because we use only the high quality raw materials and equipment</span>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer__container">
+
+      <div class="footer__box">
+        <h3 class="footer__title">Contact info</h3>
+        <p class="footer__contacts">+998998707086</p>
+        <p class="footer__contacts">+998934667612</p>
+        <p class="footer__contacts">Romanjon0595@gmail.com</p>
+        <p class="footer__contacts">Tashkent, Uzbekistan - 1101243</p>
+      </div>
+
+      <div class="footer__box">
+        <h3 class="footer__title">Follow us</h3>
+        <a class="footer__text" href="">Telegram</a>
+        <a class="footer__text" href="">Instagram</a>
+        <a class="footer__text" href="">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="footer__credit">Copyright @ 2023 by <span class="footer__span">Romanjon</span></div>
+  </footer>
+  <script src="./single.js"></script>
+  <script src="./changeImg.js"></script>
+  <script src="./main.js"></script>
+  <script src="./addCart.js"></script>
+</body>
+</html>
